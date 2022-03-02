@@ -10,7 +10,7 @@ const ChatsPage = ({ CHAT_ID, CHAT_KEY }) => {
 };
 
 export default ChatsPage;
-export const getStaticProps = async () => {
+export const getStaticProps = () => {
   return {
     props: {
       CHAT_ID: process.env.CHAT_ENGINE_ID,
